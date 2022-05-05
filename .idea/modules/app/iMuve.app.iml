@@ -44,6 +44,9 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/armv7/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/armv7/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/armv7/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/armv7/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/armv7/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/armv7/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/armv7/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/assets" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/java" isTestSource="false" />
@@ -51,16 +54,71 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/armv7DebugAndroidTest/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/armv7DebugAndroidTest/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/armv7DebugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/armv7DebugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/armv7DebugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/armv7DebugAndroidTest/out" isTestSource="true" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: ./app/libs/commons-net-3.3.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./app/src/main/libs/com.almworks.sqlite4java-1.0.392.jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:21.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:23.0.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.12.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:21.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-v4:21.0.0@aar" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.httpcomponents:httpclient:4.5.13">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/60e8e309548f93ea55ace6c614966cd0e1c7e6b4/httpclient-4.5.13-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/9654e91a61d7662c36be6710ef8e720c0e3f9807/httpclient-4.5.13-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.httpcomponents:httpcore:4.4.13">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.13/853b96d3afbb7bf8cc303fe27ee96836a10c1834/httpcore-4.4.13.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.13/3a29e9db25fb24a7f8beeccbf8b2876d26c31c99/httpcore-4.4.13-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.13/d6e6365dac44108fb2cc0684daea0d40bc6609f5/httpcore-4.4.13-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: commons-logging:commons-logging:1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/83033ee697035dfb9ce3503e1ac0c5a33021e503/commons-logging-1.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: commons-codec:commons-codec:1.11">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/978245f8bd06d70703fa3180554c62891500f97a/commons-codec-1.11-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/bce4ba84fd527950e35040b20a991c63e90e2850/commons-codec-1.11-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:23.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-v4:23.0.0@aar" level="project" />
   </component>
 </module>

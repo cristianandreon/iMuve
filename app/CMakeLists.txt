@@ -21,7 +21,7 @@ add_library( # Sets the name of the library.
              # Sets the library as a shared library.
              SHARED
 
-             # Provides a relative path to your source file(s).
+             # source files
                 src/main/jni/iMuveCPP.c
                 src/main/jni/c-sources/dwg_utility.c
                 src/main/jni/c-sources/ColorTable.c

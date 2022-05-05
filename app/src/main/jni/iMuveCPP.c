@@ -3,7 +3,7 @@
 #include <windows.h>
 #include <math.h>
 #include "c-sources/Draw.h"
-#include "lib-dwg-master\dwg.h"
+#include "lib-dwg-master/dwg.h"
 #include "utility/OpenGLWrapper.h"
 #include "utility/WindowsToAndroid.h"
 #include "spatialFilter/spatialFilter.h"
@@ -81,42 +81,6 @@ JNIEXPORT jfloat JNICALL Java_com_imuve_cristian_imuve_MainActivity_GetVersion(J
     GLJNIjobj = jobj;
 
 #ifdef JNI_SO
-
-    /*
-    my_printf("[sizeof(int):%d]", (int)sizeof(int));
-    my_printf("[sizeof(long):%d]", (int)sizeof(long));
-    my_printf("[sizeof(my_long):%d]", (int)sizeof(my_long));
-    my_printf("[sizeof(void*):%d]", (int)sizeof(void *));
-
-    my_printf("[GLNumErrStr:%d]", GLNumErrStr);
-    my_printf("[my_realloc test:%ld]", (long)GLErrStr);
-
-    int i=0;
-    for (i=0; i<250; i++) {
-        GLErrStr = my_realloc((void*)GLErrStr, 20000+i*100);
-        my_printf("[%d-my_free test:%ld]", i, (long)GLErrStr);
-    }
-
-    my_free(GLErrStr);
-        GLErrStr = NULL;
-
-        my_printf("[Done]");
-     */
-
-    /*
-    {	char str[256];
-                unsigned int i = 0;
-
-                strcpy (str, "***TEST***");
-                for (i=0; i<2500; i++) {
-                        AddStr (&GLCanvasLines, str, &GLCanvasLinesAllocated);
-                        }
-                if(GLCanvasLines) free(GLCanvasLines);
-                GLCanvasLines = NULL;
-                GLCanvasLinesAllocated = 0;
-                }
-        my_printf("[AddStr Test Done]");
-     */
 
 #endif
 

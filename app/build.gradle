@@ -1,16 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-    release {
-    }
-    }
-    compileSdkVersion 21
+
+    compileSdkVersion 23
     buildToolsVersion '24.0'
 
     defaultConfig {
         applicationId 'com.imuve.cristian.imuve'
-        minSdkVersion 21
+        minSdkVersion 23
         versionCode 19
         versionName '1.9'
 
@@ -25,7 +22,7 @@ android {
                         '-DANDROID_CPP_FEATURES=exceptions'
             }
         }
-        targetSdkVersion 21
+        targetSdkVersion 23
     }
 
     // flavorDimensions "armeabi"
@@ -35,9 +32,9 @@ android {
         armv7 {
             ndk { abiFilter "armeabi-v7a" }
             dimension "armeabi-v7a"
-            minSdkVersion 21
+            minSdkVersion 23
             applicationId 'com.imuve.cristian.imuve'
-            targetSdkVersion 21
+            targetSdkVersion 23
             versionCode 19
             versionName '1.9'
         }
@@ -45,7 +42,9 @@ android {
 
     sourceSets.main {
         jni.srcDirs = [] // 'src/main/jni' // diseable ndk-build...
-        jniLibs.srcDirs 'src/main/libs'
+        // jniLibs.srcDirs 'src/main/libs'
+        // File configFile = file('lib/armeabi-v7a')
+        // jniLibs.srcDir configFile.absolutePath
     }
 
 
@@ -53,9 +52,15 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
         }
         debug {
             jniDebuggable true
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
         }
     }
 
@@ -65,27 +70,34 @@ android {
         }
     }
 
-    splits {
-        abi {
-            enable false
-            reset()
-            include 'armeabi-v7a'
-        }
-    }
+
+
     compileOptions {
         sourceCompatibility 1.8
         targetCompatibility 1.8
     }
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+
     ndkVersion '21.0.6113669'
+
+    // ndkPath '$PROJECT_DIR$'
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation files('libs/commons-net-3.3.jar')
     implementation files('src/main/libs/com.almworks.sqlite4java-1.0.392.jar')
-    implementation 'com.android.support:appcompat-v7:21.0.0'
-    implementation 'com.android.support:support-v4:21.0.0'
+    implementation 'com.android.support:appcompat-v7:23.0.0'
+    implementation 'com.android.support:support-v4:23.0.0'
     implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
 }
 
 allprojects {
