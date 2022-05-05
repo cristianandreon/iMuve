@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">iMuve</string>
+
+    <string name="action_settings">Impostazioni</string>
+    <string name="title_activity_dwgviewer">Visualizzatore DWG</string>
+
+
+    <string name="connection_error">\"Errore Connessione\"</string>
+    <string name="xml_error">\"XML Error\"</string>
+    <string name="title_activity_sel_oggetti">Seleziona oggetto</string>
+    <string name="title_activity_appinterventi">Interventi</string>
+    <string name="title_activity_appinterventimanage">Gestione Interventi</string>
+    <string name="title_activity_view_tables">Gestione Tabelle</string>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="exit">Esci</string>
+    <string name="zoom_home">Ingrandisci tutto</string>
+    <string name="showIfIntervento">C/Intervento</string>
+    <string name="title_activity_osmview">Visualizza Mappa</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_document_viewer">DocumentViewerActivity</string>
+</resources>

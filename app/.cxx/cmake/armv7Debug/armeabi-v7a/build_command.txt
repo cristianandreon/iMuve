@@ -1,0 +1,27 @@
+                    Executable : /Users/administrator/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Users/administrator/IntelliJProjects/MUVE/iMuve/app
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_FIND_ROOT_PATH=/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/cmake/armv7Debug/prefab/armeabi-v7a/prefab
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_ANDROID_NDK=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/administrator/IntelliJProjects/MUVE/iMuve/app/build/intermediates/cmake/armv7Debug/obj/armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/administrator/IntelliJProjects/MUVE/iMuve/app/build/intermediates/cmake/armv7Debug/obj/armeabi-v7a
+-DCMAKE_MAKE_PROGRAM=/Users/administrator/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-24
+-DANDROID_ARM_NEON=TRUE
+-DANDROID_CPP_FEATURES=exceptions
+-B/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/cmake/armv7Debug/armeabi-v7a
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 1

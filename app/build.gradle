@@ -1,0 +1,103 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    release {
+    }
+    }
+    compileSdkVersion 21
+    buildToolsVersion '24.0'
+
+    defaultConfig {
+        applicationId 'com.imuve.cristian.imuve'
+        minSdkVersion 21
+        versionCode 19
+        versionName '1.9'
+
+
+
+        externalNativeBuild {
+            cmake {
+                cppFlags '-std=c++11'
+                arguments '-DANDROID_PLATFORM=android-24',
+                        '-DANDROID_ARM_NEON=TRUE',
+                        // '-DANDROID_TOOLCHAIN=gcc',
+                        '-DANDROID_CPP_FEATURES=exceptions'
+            }
+        }
+        targetSdkVersion 21
+    }
+
+    // flavorDimensions "armeabi"
+    flavorDimensions "armeabi-v7a"
+
+    productFlavors {
+        armv7 {
+            ndk { abiFilter "armeabi-v7a" }
+            dimension "armeabi-v7a"
+            minSdkVersion 21
+            applicationId 'com.imuve.cristian.imuve'
+            targetSdkVersion 21
+            versionCode 19
+            versionName '1.9'
+        }
+    }
+
+    sourceSets.main {
+        jni.srcDirs = [] // 'src/main/jni' // diseable ndk-build...
+        jniLibs.srcDirs 'src/main/libs'
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            jniDebuggable true
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    splits {
+        abi {
+            enable false
+            reset()
+            include 'armeabi-v7a'
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+    ndkVersion '21.0.6113669'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/commons-net-3.3.jar')
+    implementation files('src/main/libs/com.almworks.sqlite4java-1.0.392.jar')
+    implementation 'com.android.support:appcompat-v7:21.0.0'
+    implementation 'com.android.support:support-v4:21.0.0'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven {
+            url "https://repo.spring.io/release"
+        }
+        maven {
+            url "https://repository.jboss.org/maven2"
+        }
+    }
+}

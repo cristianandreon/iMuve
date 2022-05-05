@@ -1,0 +1,129 @@
+
+{
+	"buildFiles" : [ "/home/ubuntu/AndroidDevelop/iMuve/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"imuvecpp-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "imuvecpp",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a --target imuvecpp",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/iMuveCPP.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/c-sources/dwg_utility.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/c-sources/ColorTable.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/c-sources/Draw.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/c-sources/matrix.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/c-sources/quat.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/c-sources/vector.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/lib-dwg-master/dwg.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/lib-dwg-master/bits.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/lib-dwg-master/common.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/lib-dwg-master/logging.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/lib-dwg-master/decode.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/lib-dwg-master/decode_r2007.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/utility/memory_allocator.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot -Dimuvecpp_EXPORTS -I../../../../src/main/jni  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/utility/OpenGLWrapper.c",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dimuvecpp_EXPORTS -I../../../../src/main/jni -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -fexceptions -std=c++11 -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni/utility/triangulate.cpp",
+					"workingDirectory" : "/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/ubuntu/AndroidDevelop/iMuve/app/build/intermediates/cmake/armv7/release/obj/armeabi-v7a/libimuvecpp.so",
+			"toolchain" : "1168045922335858990"
+		}
+	},
+	"toolchains" : 
+	{
+		"1168045922335858990" : 
+		{
+			"cCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc",
+			"cppCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++"
+		}
+	}
+}

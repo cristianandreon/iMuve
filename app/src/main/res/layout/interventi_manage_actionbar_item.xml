@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5"
+    >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:layout_gravity="center_vertical">
+
+            Spinner
+                    android:id="@+id/spinInterventi"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown"
+                android:layout_column="0"
+                android:gravity="left" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="Actionbar Title"
+                android:id="@+id/etActbarTitle"
+                android:gravity="center_vertical|left"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical|left"
+                android:textColor="#ffffffff"
+                android:textSize="17dp" /><![CDATA[
+
+
+
+            ImageButton
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibtNew"
+                android:layout_gravity="center_vertical|right"
+                android:src="@drawable/icon_new"
+                android:layout_column="10" />
+
+
+
+
+
+
+
+
+
+            ImageButton
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibtUpdate"
+                android:layout_gravity="center_vertical|right"
+                android:src="@drawable/icon_update"
+                android:layout_column="10" />
+
+            ImageButton
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibtDelete"
+                android:layout_gravity="center_vertical|right"
+                android:src="@drawable/icon_delete"
+                android:layout_column="12" />
+
+
+
+
+
+        ]]>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|right" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:layout_gravity="center_vertical">
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_column="0" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sincronizza tutto"
+                android:id="@+id/btSyncAll"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:textColor="#ff000000" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_column="2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sincronizza"
+                android:id="@+id/btSync"
+                android:layout_column="3"
+                android:layout_gravity="center"
+                android:textColor="#ff000000" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_column="4" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:id="@+id/btOk"
+                android:layout_column="5"
+                android:layout_gravity="center"
+                android:textColor="#ff000000" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_column="6" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

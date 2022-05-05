@@ -1,0 +1,42 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/administrator/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/administrator/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "imuvecpp-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/administrator/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+        "imuvecpp"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "imuvecpp",
+      "output": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/build/intermediates/cxx/RelWithDebInfo/471p724c/obj/armeabi-v7a/libimuvecpp.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

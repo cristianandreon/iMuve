@@ -1,0 +1,1 @@
+/Users/administrator/IntelliJProjects/MUVE/iMuve/app/build/intermediates/cmake/armv7Debug/obj/armeabi-v7a

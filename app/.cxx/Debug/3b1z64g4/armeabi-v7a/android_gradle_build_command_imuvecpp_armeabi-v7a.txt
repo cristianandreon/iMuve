@@ -1,0 +1,7 @@
+Executable : /Users/administrator/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/Debug/3b1z64g4/armeabi-v7a
+imuvecpp
+jvmArgs : 
+

@@ -1,0 +1,3 @@
+/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/AndroidDevelop/iMuve/app/.externalNativeBuild/cmake/armv7Release/armeabi-v7a/CMakeFiles/imuvecpp.dir

@@ -1,0 +1,335 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.imuve.cristian.imuve.SettingsActivity"
+    android:background="@drawable/logo3">
+
+    <GridLayout
+        android:layout_width="970dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gridLayout3"
+        android:background="@drawable/shape">
+
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="20px"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Impostazioni"
+            android:id="@+id/textView29"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome utente"
+            android:id="@+id/textView28"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login automatico"
+            android:id="@+id/textView27"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckAutoLogin"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:checked="false"
+            android:layout_marginLeft="15dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etUserName"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_marginLeft="15dp" />
+
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_row="4"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protocollo (http://, https://)"
+            android:id="@+id/textView32"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etProtocol"
+            android:layout_row="5"
+            android:layout_column="3"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Server (esempio : mysubdomain.myserver.com/myservice"
+            android:id="@+id/textView19"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etServer"
+            android:layout_row="6"
+            android:layout_column="3"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port (es.: 80, 5010)"
+            android:id="@+id/textView30"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPort"
+            android:layout_row="7"
+            android:layout_column="3"
+            android:layout_marginLeft="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="check"
+            android:id="@+id/btCheck"
+            android:layout_row="7"
+            android:layout_column="4" />
+
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_row="8"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fattore ingrandimento Vani"
+            android:id="@+id/textView26"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberDecimal"
+            android:ems="10"
+            android:id="@+id/etZoomArea"
+            android:layout_row="9"
+            android:layout_column="3"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fattore ingrandimento Oggetti"
+            android:id="@+id/textView34"
+            android:layout_row="12"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberDecimal"
+            android:ems="10"
+            android:id="@+id/etZoomObj"
+            android:layout_row="12"
+            android:layout_column="3"
+            android:layout_marginLeft="15dp" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_row="13"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:text="New Text"
+            android:id="@+id/textView8"
+            android:layout_row="14"
+            android:layout_column="1"
+            android:textColor="#ff3b0003" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ricorda campi digitati su scheda intervento"
+            android:id="@+id/textView36"
+            android:layout_row="15"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckStoreTypedData"
+            android:layout_row="15"
+            android:layout_column="3"
+            android:checked="false"
+            android:layout_marginLeft="15dp" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_row="16"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avvia scheda sempre con nuovo intervento"
+            android:id="@+id/textView10"
+            android:layout_row="17"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckNewIntervento"
+            android:layout_row="17"
+            android:layout_column="3"
+            android:checked="false"
+            android:layout_marginLeft="15dp" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_row="18"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiudi scheda dopo aggiunta intervento"
+            android:id="@+id/textView15"
+            android:layout_row="19"
+            android:layout_column="1"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckInterventiCloseOnNew"
+            android:layout_row="19"
+            android:layout_column="3"
+            android:checked="false"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modalita \nDiagnostica"
+            android:id="@+id/textView31"
+            android:layout_row="19"
+            android:layout_column="4"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckDebug"
+            android:layout_row="19"
+            android:layout_column="5"
+            android:checked="false"
+            android:layout_marginLeft="15dp" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="10dp"
+            android:layout_row="21"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:id="@+id/btReset"
+            android:layout_row="6"
+            android:layout_column="4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="as test"
+            android:id="@+id/btTest"
+            android:layout_row="6"
+            android:layout_column="5" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/gridLayout3"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="52dp"
+            android:text="Annulla"
+            android:id="@+id/btCancel"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="175dp"
+            android:layout_height="52dp"
+            android:text="OK"
+            android:id="@+id/btOk"
+            android:layout_row="1"
+            android:layout_column="2" />
+    </GridLayout>
+
+</RelativeLayout>

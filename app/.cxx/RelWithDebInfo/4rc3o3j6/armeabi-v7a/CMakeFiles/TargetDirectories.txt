@@ -1,0 +1,3 @@
+/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/4rc3o3j6/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/4rc3o3j6/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/4rc3o3j6/armeabi-v7a/CMakeFiles/imuvecpp.dir

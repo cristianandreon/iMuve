@@ -1,0 +1,371 @@
+!SESSION 2015-05-01 23:17:54.577 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -data D:\AndroidDevelop\WorkSpace\iMuve -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.e4.ui.di 2 0 2015-05-01 23:17:55.687
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_0.10.1.v20120523-1955 [796]
+]
+Component2: Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_1.0.0.v20140328-2112 [96]
+]  
+
+!ENTRY org.eclipse.equinox.event 2 0 2015-05-01 23:17:55.687
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.200.v20120522-2049 [812]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.3.100.v20140115-1647 [137]
+]  
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-05-01 23:17:55.697
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.0.100.v20120913-155635 [817]
+]
+Component2: Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.1.0.v20140408-1354 [170]
+]  
+
+!ENTRY org.eclipse.egit.core 4 0 2015-05-01 23:17:56.147
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.core [998]
+  Another singleton bundle selected: osgi.identity; osgi.identity="org.eclipse.egit.core"; type="osgi.bundle"; version:Version="3.4.2.201412180340-r"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.import 4 0 2015-05-01 23:17:56.147
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.import [1000]
+  Unresolved requirement: Import-Package: org.eclipse.egit.core.internal; version="[2.2.0,2.3.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-05-01 23:17:56.147
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.ui [1001]
+  Another singleton bundle selected: osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.2.201412180340-r"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jface 2 0 2015-05-01 23:17:58.901
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-01 23:17:58.901
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog,Prepare Changelog,
+		Prepares Changelog,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@673ee4de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5223dfc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2015-05-01 23:18:40.347
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+!SESSION 2015-05-18 17:22:11.987 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -data D:\AndroidDevelop\WorkSpace\iMuve -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.e4.ui.di 2 0 2015-05-18 17:22:13.226
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_0.10.1.v20120523-1955 [796]
+]
+Component2: Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_1.0.0.v20140328-2112 [96]
+]  
+
+!ENTRY org.eclipse.equinox.event 2 0 2015-05-18 17:22:13.226
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.200.v20120522-2049 [812]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.3.100.v20140115-1647 [137]
+]  
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-05-18 17:22:13.226
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.0.100.v20120913-155635 [817]
+]
+Component2: Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.1.0.v20140408-1354 [170]
+]  
+
+!ENTRY org.eclipse.egit.core 4 0 2015-05-18 17:22:13.688
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.core [998]
+  Another singleton bundle selected: osgi.identity; osgi.identity="org.eclipse.egit.core"; type="osgi.bundle"; version:Version="3.4.2.201412180340-r"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.import 4 0 2015-05-18 17:22:13.689
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.import [1000]
+  Unresolved requirement: Import-Package: org.eclipse.egit.core.internal; version="[2.2.0,2.3.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-05-18 17:22:13.694
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.ui [1001]
+  Another singleton bundle selected: osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.2.201412180340-r"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jface 2 0 2015-05-18 17:22:17.118
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-18 17:22:17.118
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog,Prepare Changelog,
+		Prepares Changelog,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7492640a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36e60850,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

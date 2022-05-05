@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="left">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Spinner
+                    android:id="@+id/spinInterventi"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown"
+                android:layout_column="0"
+                android:gravity="left" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Annulla"
+                android:id="@+id/btCancel"
+                android:layout_column="25"
+                android:layout_gravity="center"
+                android:textColor="#ff020520" />
+
+            <Space
+                android:layout_width="26dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_column="9" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:id="@+id/btOk"
+                android:layout_column="16"
+                android:layout_gravity="center"
+                android:textColor="#ff020520"
+                 />
+
+            <Space
+                android:layout_width="42dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_column="9" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nuovo"
+                android:id="@+id/btNew"
+                android:layout_column="16"
+                android:layout_gravity="center"
+                android:textColor="#ff020520"
+                 />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_column="9" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aggiorna"
+                android:id="@+id/btUpdate"
+                android:layout_column="16"
+                android:layout_gravity="center"
+                android:textColor="#ff020520"
+                 />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_column="11" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sincronizza"
+                android:id="@+id/btSync2"
+                android:layout_column="35"
+                android:layout_gravity="center"
+                android:textColor="#ff020520"
+                 />
+
+            <Space
+                android:layout_width="26dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_column="13" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ELIMINA"
+                android:id="@+id/btDelete"
+                android:layout_column="16"
+                android:layout_gravity="center"
+                android:textColor="#ff020520"
+                 />
+
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

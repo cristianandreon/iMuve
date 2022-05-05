@@ -1,0 +1,18 @@
+# ninja log v5
+6	642	1651671037	CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/common.c.o	2f718f7dd791db19
+2	651	1651671037	CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/ColorTable.c.o	5b9f5b3ae72ebc64
+4	663	1651671037	CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/vector.c.o	12f1755d9888b500
+4	680	1651671037	CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/quat.c.o	20a2af1b01103d17
+642	799	1651671037	CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/logging.c.o	9e4ded3e5f766c3d
+2	859	1651671037	CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/dwg_utility.c.o	b559726abb33e6bd
+3	934	1651671038	CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/matrix.c.o	31bd79abefb6aaeb
+5	951	1651671038	CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/dwg.c.o	142132c377cd8311
+5	999	1651671038	CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/bits.c.o	9d2d6c80fa2ad25a
+680	1008	1651671038	CMakeFiles/imuvecpp.dir/src/main/jni/utility/memory_allocator.c.o	892eb05919c704b2
+663	1104	1651671038	CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/decode_r2007.c.o	b27e94c3a4e62868
+1	1125	1651671038	CMakeFiles/imuvecpp.dir/src/main/jni/iMuveCPP.c.o	55f8213968d52bcf
+3	1200	1651671038	CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/Draw.c.o	7e45c0499d6d3159
+799	1320	1651671038	CMakeFiles/imuvecpp.dir/src/main/jni/utility/OpenGLWrapper.c.o	c8acf290d9f53ce9
+651	1907	1651671038	CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/decode.c.o	66f31ff91bf171d4
+859	2004	1651671039	CMakeFiles/imuvecpp.dir/src/main/jni/utility/triangulate.cpp.o	c330b4aaec9ef7c0
+2004	2146	1651671039	../../../../build/intermediates/cmake/armv7Debug/obj/armeabi-v7a/libimuvecpp.so	4d18a6c62ca6ce27

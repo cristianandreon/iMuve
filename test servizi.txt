@@ -1,0 +1,3 @@
+http://dkmap.888sp.com/services/pamap/login-service/login-device?username=correr&imei=353316091790942
+->
+{"idsessione":null,"codEsito":"S"}

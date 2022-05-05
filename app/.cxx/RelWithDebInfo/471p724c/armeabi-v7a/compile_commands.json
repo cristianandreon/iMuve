@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/iMuveCPP.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/iMuveCPP.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/iMuveCPP.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/dwg_utility.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/dwg_utility.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/dwg_utility.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/ColorTable.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/ColorTable.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/ColorTable.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/Draw.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/Draw.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/Draw.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/matrix.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/matrix.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/matrix.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/quat.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/quat.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/quat.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/c-sources/vector.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/vector.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/c-sources/vector.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/dwg.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/dwg.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/dwg.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/bits.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/bits.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/bits.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/common.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/common.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/common.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/logging.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/logging.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/logging.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/decode.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/decode.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/decode.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/lib-dwg-master/decode_r2007.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/decode_r2007.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/lib-dwg-master/decode_r2007.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/utility/memory_allocator.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/utility/memory_allocator.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/utility/memory_allocator.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/utility/OpenGLWrapper.c.o   -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/utility/OpenGLWrapper.c",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/utility/OpenGLWrapper.c"
+},
+
+{
+  "directory": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/.cxx/RelWithDebInfo/471p724c/armeabi-v7a",
+  "command": "/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/administrator/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dimuvecpp_EXPORTS -I/home/ubuntu/AndroidDevelop/iMuve/app/src/main/jni -I../../../../src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fexceptions -std=c++11 -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/imuvecpp.dir/src/main/jni/utility/triangulate.cpp.o -c /Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/utility/triangulate.cpp",
+  "file": "/Users/administrator/IntelliJProjects/MUVE/iMuve/app/src/main/jni/utility/triangulate.cpp"
+}
+]

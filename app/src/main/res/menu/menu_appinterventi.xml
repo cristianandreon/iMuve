@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.imuve.cristian.imuve.APPInterventiActivity">
+    <item android:id="@+id/actionSync" android:title="Sincronizza"
+        android:orderInCategory="100"  />
+    <item android:id="@+id/actionOk" android:title="Ok"
+        android:orderInCategory="100"  />
+    <item android:id="@+id/actionCancel" android:title="Annulla"
+        android:orderInCategory="100"  />
+</menu>

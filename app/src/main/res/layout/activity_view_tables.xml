@@ -1,0 +1,445 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.imuve.cristian.imuve.ViewTablesActivity"
+    android:background="@drawable/logo3">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:id="@+id/editText3"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="#ff710003"
+            android:layout_columnSpan="4" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:id="@+id/spacer1"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:background="#ff710003" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="149dp"
+            android:layout_row="1"
+            android:layout_column="0" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lista Modifiche"
+                android:id="@+id/tvQueue"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="14dp"
+                android:gravity="right" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_row="2"
+                android:layout_column="0" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SINCR. AZIONI"
+                android:id="@+id/btSyncQueue"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textColor="#ff01341b"
+                android:textSize="12dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CANCELLA"
+                android:id="@+id/btDropQueue"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:textColor="#ff01341b"
+                android:textSize="12dp" />
+
+        </GridLayout>
+
+        <ListView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:id="@+id/lvGTQueue"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:choiceMode="singleChoice" />
+
+        <GridLayout
+            android:layout_width="92dp"
+            android:layout_height="120dp"
+            android:layout_row="1"
+            android:layout_column="2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Complessi"
+                android:id="@+id/tvComplessi"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SINCR. COMPLESSI"
+                android:id="@+id/btSyncComplessi"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textColor="#ff01341b"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="last update"
+                android:id="@+id/tvComplessiDataAgg"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textSize="12dp" />
+        </GridLayout>
+
+        <ListView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:id="@+id/lvGTComplessi"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:choiceMode="singleChoice"
+            android:background="#64e6dde0" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="120dp"
+            android:layout_row="3"
+            android:layout_column="0" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Edifici"
+                android:id="@+id/tvEdifici"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SINCR. EDIFICI"
+                android:id="@+id/btSyncEdifici"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textColor="#ff01341b"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="last update"
+                android:id="@+id/tvEdificiDataAgg"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textSize="12dp" />
+        </GridLayout>
+
+        <ListView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:id="@+id/lvGTEdifici"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:choiceMode="singleChoice"
+            android:background="#64cec6c9" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="120dp"
+            android:layout_row="3"
+            android:layout_column="2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Piani"
+                android:id="@+id/tvPiani"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SINCR. PIANI"
+                android:id="@+id/btSyncPiani"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textColor="#ff01341b"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="last update"
+                android:id="@+id/tvPianiDataAgg"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textSize="12dp" />
+        </GridLayout>
+
+        <ListView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:id="@+id/lvGTPiani"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:background="#64cec6c9" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:id="@+id/editText"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="#ff710003"
+            android:layout_columnSpan="4" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="120dp"
+            android:layout_row="5"
+            android:layout_column="0" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Vani"
+                android:id="@+id/tvVani"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SINCR. VANI"
+                android:id="@+id/btSyncVani"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textColor="#ff01341b"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="last update"
+                android:id="@+id/tvVaniDataAgg"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textSize="12dp" />
+        </GridLayout>
+
+        <ListView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:id="@+id/lvGTVani"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:background="#96beb7ba" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="120dp"
+            android:layout_row="5"
+            android:layout_column="2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Oggetti"
+                android:id="@+id/tvOggetti"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SINCR. OGGETTI"
+                android:id="@+id/btSyncOggetti"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textColor="#ff01341b"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="last update"
+                android:id="@+id/tvOggettiDataAgg"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textSize="12dp" />
+        </GridLayout>
+
+        <ListView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:id="@+id/lvGTOggetti"
+            android:layout_row="5"
+            android:layout_column="3"
+            android:background="#96beb7ba" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:id="@+id/editText2"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:background="#ff710003"
+            android:layout_columnSpan="4" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="120dp"
+            android:layout_row="7"
+            android:layout_column="0" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Interventi"
+                android:id="@+id/tvInterventi"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SINCR. INTERV."
+                android:id="@+id/btSyncInterventi"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textColor="#ff01341b"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="last update"
+                android:id="@+id/tvInterventiDataAgg"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textSize="12dp" />
+        </GridLayout>
+
+        <ListView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:id="@+id/lvGTInterventi"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:background="#96afa8ab"
+            android:choiceMode="singleChoice" />
+
+        <GridLayout
+            android:layout_width="86dp"
+            android:layout_height="120dp"
+            android:layout_row="7"
+            android:layout_column="2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Disegni"
+                android:id="@+id/tvDisegni"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SINCR. DISEGNI"
+                android:id="@+id/btSyncDwg"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textColor="#ff01341b"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="last update"
+                android:id="@+id/tvDwgDataAgg"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textSize="12dp" />
+        </GridLayout>
+
+        <ListView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:id="@+id/lvGTDwg"
+            android:layout_row="7"
+            android:layout_column="3"
+            android:background="#96afa8ab"
+            android:choiceMode="singleChoice" />
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sincronizza tutto"
+        android:id="@+id/btSyncAll"
+        android:layout_row="11"
+        android:layout_column="1"
+        android:textColor="#ff01341b"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="414dp"
+        android:layout_marginEnd="414dp"
+        android:layout_below="@+id/gridLayout"
+        android:layout_alignRight="@+id/gridLayout"
+        android:layout_alignEnd="@+id/gridLayout"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

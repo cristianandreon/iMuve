@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fffbffff"
+    android:padding="8dp">
+    <LinearLayout android:id="@+id/Text"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip">
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:padding="5dp"
+        android:layout_alignParentRight="true" />
+
+
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="50dp"
+        android:layout_height="32dp"
+        android:textSize="12sp"
+        android:textColor="#ff0a4504"
+        android:paddingLeft="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/Text"
+        android:layout_toEndOf="@+id/Text1"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:backgroundTint="#ffd1d1cb"
+        android:minWidth="120dp"
+        tools:ignore="NotSibling" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:textColor="#ff4a1f00"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:paddingLeft="50dp"
+        android:layout_below="@+id/Text"
+        android:layout_toRightOf="@+id/Text1"
+        android:layout_toEndOf="@+id/Text1"
+        android:backgroundTint="#ffa5a59f"
+        android:minWidth="200dp" />
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:textColor="#ff4a1f00"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:paddingLeft="50dp"
+        android:backgroundTint="#ffa5a59f"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/Text2"
+        android:layout_toEndOf="@+id/Text2"
+        android:minWidth="300dp" />
+
+</RelativeLayout >

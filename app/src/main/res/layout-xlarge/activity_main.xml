@@ -1,0 +1,714 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo3"
+    tools:context=".MainActivity"
+    tools:layout_height="match_parent"
+    tools:layout_width="match_parent">
+
+
+    <GridLayout
+        android:id="@+id/gridLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alignmentMode="alignBounds"
+        android:columnCount="2"
+        android:rowCount="1">
+
+
+        <GridLayout
+            android:id="@+id/gridLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_column="0"
+            android:layout_gravity="left"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="0"
+            android:background="@drawable/shape"
+            android:elevation="5dp">
+
+
+            <TextView
+                android:id="@+id/tvWellcome"
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:layout_gravity="right"
+                android:layout_row="0"
+                android:text="Benvenuto"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvCurStat"
+                android:layout_width="500dp"
+                android:layout_column="4"
+                android:layout_marginLeft="30dp"
+                android:layout_row="0"
+                android:text="Selezione oggetto Manutentivo"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/editText10"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_column="2"
+                android:layout_columnSpan="4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="150dp"
+                android:layout_row="2"
+                android:background="#ff969aac"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_gravity="right"
+                android:layout_row="1"
+                android:text="..."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="20px"
+                android:layout_column="0"
+                android:layout_row="2" />
+
+            <TextView
+                android:id="@+id/editText4"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_column="2"
+                android:layout_columnSpan="4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="150dp"
+                android:layout_row="4"
+                android:background="#ffc8c5c4" />
+
+            <GridLayout
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:layout_column="2"
+                android:layout_row="3">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="125dp"
+                    android:layout_height="32dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_row="0"
+                    android:gravity="right"
+                    android:text="Complessi"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btSyncComplessi"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_row="1"
+                    android:text="Sync" />
+            </GridLayout>
+
+            <ListView
+                android:id="@+id/lvComplessi"
+                android:layout_width="600dp"
+                android:layout_height="75dp"
+                android:layout_column="4"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_row="3"
+                android:clickable="true"
+                android:interpolator="@android:anim/linear_interpolator" />
+
+            <GridLayout
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:layout_column="2"
+                android:layout_row="5">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="125dp"
+                    android:layout_height="32dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_row="0"
+                    android:gravity="right"
+                    android:text="Edifici"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btSyncEdifici"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_row="1"
+                    android:text="Sync" />
+            </GridLayout>
+
+            <ListView
+                android:id="@+id/lvEdifici"
+                android:layout_width="600dp"
+                android:layout_height="75dp"
+                android:layout_column="4"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_row="5"
+                android:clickable="true"
+                android:interpolator="@android:anim/linear_interpolator" />
+
+            <Button
+                android:id="@+id/btShowMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:layout_gravity="center|left|top"
+                android:layout_row="5"
+                android:clickable="false"
+                android:text="Mostra mappa..." />
+
+            <TextView
+                android:id="@+id/editText8"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_column="2"
+                android:layout_columnSpan="4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="150dp"
+                android:layout_row="6"
+                android:background="#ffc8c5c4" />
+
+            <GridLayout
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:layout_column="2"
+                android:layout_row="7">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="125dp"
+                    android:layout_height="32dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_row="0"
+                    android:gravity="right"
+                    android:text="Piani"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btSyncPiani"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_row="1"
+                    android:text="Sync" />
+            </GridLayout>
+
+            <ListView
+                android:id="@+id/lvPiani"
+                android:layout_width="600dp"
+                android:layout_height="75dp"
+                android:layout_column="4"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_row="7"
+                android:choiceMode="singleChoice"
+                android:clickable="true"
+                android:interpolator="@android:anim/linear_interpolator" />
+
+            <Button
+                android:id="@+id/btOpenDWG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:layout_gravity="center|left|top"
+                android:layout_row="7"
+                android:text="Apri Disegno..." />
+
+            <TextView
+                android:id="@+id/editText9"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_column="2"
+                android:layout_columnSpan="4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="150dp"
+                android:layout_row="8"
+                android:background="#ffc8c5c4" />
+
+            <GridLayout
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:layout_column="2"
+                android:layout_row="9"
+                android:focusableInTouchMode="false">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="125dp"
+                    android:layout_height="32dp"
+                    android:layout_column="0"
+                    android:layout_columnSpan="2"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_row="0"
+                    android:gravity="right"
+                    android:text="Vani "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btSyncVani"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_row="1"
+                    android:gravity="center"
+                    android:text="Sync" />
+
+                <Button
+                    android:id="@+id/btSyncDwg"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="54dp"
+                    android:layout_column="0"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_row="1"
+                    android:gravity="center_vertical"
+                    android:text="Sync\nDWG" />
+
+            </GridLayout>
+
+            <ListView
+                android:id="@+id/lvVani"
+                android:layout_width="600dp"
+                android:layout_height="75dp"
+                android:layout_column="4"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_row="9"
+                android:clickable="true"
+                android:interpolator="@android:anim/linear_interpolator" />
+
+            <Button
+                android:id="@+id/btLocateVano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:layout_gravity="center|left|top"
+                android:layout_row="9"
+                android:text="Localizza vano..." />
+
+            <TextView
+                android:id="@+id/editText7"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_column="2"
+                android:layout_columnSpan="4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="150dp"
+                android:layout_row="10"
+                android:background="#ffc8c5c4" />
+
+            <GridLayout
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:layout_column="2"
+                android:layout_row="11">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="125dp"
+                    android:layout_height="32dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_row="0"
+                    android:gravity="right"
+                    android:text="Oggetti"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btSyncOggetti"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_row="1"
+                    android:text="Sync" />
+            </GridLayout>
+
+            <ListView
+                android:id="@+id/lvOggetti"
+                android:layout_width="600dp"
+                android:layout_height="75dp"
+                android:layout_column="4"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_row="11"
+                android:choiceMode="singleChoice"
+                android:clickable="true"
+                android:interpolator="@android:anim/linear_interpolator" />
+
+            <Button
+                android:id="@+id/btLocateOggetto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:layout_gravity="center|left|top"
+                android:layout_row="11"
+                android:text="Localizza Oggetto..." />
+
+            <TextView
+                android:id="@+id/editText6"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_column="2"
+                android:layout_columnSpan="4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="150dp"
+                android:layout_row="12"
+                android:background="#ffc8c5c4" />
+
+            <GridLayout
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_column="2"
+                android:layout_row="13">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="125dp"
+                    android:layout_height="26dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_row="0"
+                    android:gravity="right"
+                    android:text="Interventi"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btSyncInterventi"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_row="1"
+                    android:text="Sync" />
+
+                <Button
+                    android:id="@+id/btAddInterventi"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right"
+                    android:layout_row="2"
+                    android:text="AGGIUNGI" />
+            </GridLayout>
+
+            <ListView
+                android:id="@+id/lvInterventi"
+                android:layout_width="600dp"
+                android:layout_height="75dp"
+                android:layout_column="4"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_row="13"
+                android:choiceMode="singleChoice"
+                android:clickable="true"
+                android:interpolator="@android:anim/linear_interpolator" />
+
+            <TextView
+                android:id="@+id/editText5"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_column="2"
+                android:layout_columnSpan="4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="150dp"
+                android:layout_row="14"
+                android:background="#ffc8c5c4" />
+
+        </GridLayout>
+
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="210dp"
+            android:layout_height="fill_parent"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:layout_row="0"
+
+            android:background="@drawable/shape"
+            android:elevation="5dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical|left"
+                    android:layout_margin="10dp"
+                    android:layout_row="15"
+                    android:contentDescription="logo"
+                    android:src="@drawable/logo" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:layout_row="16"
+                    android:gravity="center_horizontal"
+                    android:text="iMuve"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="30dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btInterventiManage"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/xml"
+                    android:layout_column="0"
+                    android:layout_row="5"
+                    android:text="Gestione Interventi" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:id="@+id/btViewTables"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/xml"
+                    android:layout_column="0"
+                    android:layout_row="5"
+                    android:text="Tabelle" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:id="@+id/btLogOut"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/xml"
+                    android:layout_column="0"
+                    android:layout_row="5"
+                    android:text="LogOUT" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:id="@+id/btSettings"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/xml"
+                    android:layout_column="0"
+                    android:layout_row="5"
+                    android:text="IMPOSTAZIONI" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:id="@+id/btExit"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/xml"
+                    android:layout_column="0"
+                    android:layout_row="5"
+                    android:text="Exit" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="10dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvDebug"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_row="16"
+                    android:gravity="center_horizontal"
+                    android:text="---"
+                    android:textAlignment="center"
+                    android:textSize="17dp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btExportDB"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="4"
+                    android:text="EXPORT DB" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/opendwg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:layout_row="1"
+                    android:text="TEST Open DWG" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/canvas"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/opendwg"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:text="Upload Canvas" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/xml"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:text="Upload XML" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/json"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:text="Upload JSON" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/keyTexts"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/xml"
+                    android:layout_column="0"
+                    android:layout_row="4"
+                    android:text="Upload KEY TEXT" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/testPDFViewer"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="4"
+                    android:text="View PDF" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </GridLayout>
+
+
+</RelativeLayout>

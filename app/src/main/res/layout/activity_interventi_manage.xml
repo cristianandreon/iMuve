@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:windowSoftInputMode="stateAlwaysHidden"
+    android:background="@drawable/logo3">
+
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <GridLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="3"
+                android:layout_span="2"
+                android:layout_column="0"
+                android:background="@drawable/shape"
+                android:layout_weight=".25">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Codice Oggetto"
+                    android:id="@+id/tvOggetto"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="0" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etOggetto"
+                    android:layout_column="1"
+                    android:maxWidth="250dp"
+                    android:minWidth="150dp"
+                    android:layout_row="0"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Codice Intervento"
+                    android:id="@+id/tvInterventi"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etCodIntervento"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:maxWidth="250dp"
+                    android:minWidth="150dp"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Da inviare"
+                    android:id="@+id/textView48"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="2" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:id="@+id/ckToSync"
+                    android:layout_column="1"
+                    android:checked="false"
+                    android:layout_row="2"
+                    android:maxWidth="250dp" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_span="2"
+                android:background="@drawable/shape"
+                android:columnCount="2"
+                android:rowCount="3"
+                android:layout_weight=".25">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Desc.Oggetto"
+                    android:id="@+id/tvDescOggetto"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="0" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etDescOggetto"
+                    android:layout_column="1"
+                    android:maxWidth="250dp"
+                    android:minWidth="150dp"
+                    android:layout_row="0"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Desc.Intervento"
+                    android:id="@+id/tvDescintervento"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etDescIntervento"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:maxWidth="250dp"
+                    android:minWidth="150dp"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Stato"
+                    android:id="@+id/tvStato"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="2" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etStato"
+                    android:layout_column="1"
+                    android:minWidth="150dp"
+                    android:maxWidth="250dp"
+                    android:layout_row="2"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="4"
+                android:background="@drawable/shape"
+                android:columnCount="2"
+                android:rowCount="3"
+                android:layout_span="2"
+                android:layout_weight=".25">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Data Apertura"
+                    android:id="@+id/tvDataApertura"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Data Chiusura"
+                    android:id="@+id/tvDataChiusura"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Data Scadenza"
+                    android:id="@+id/tvDataScadenza"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="2" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etDataApertura"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:maxWidth="150dp"
+                    android:minWidth="120dp"
+                    android:inputType="time|date"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etDataChiusura"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:maxWidth="150dp"
+                    android:minWidth="120dp"
+                    android:inputType="time|date"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etDataScadenza"
+                    android:layout_column="1"
+                    android:minWidth="120dp"
+                    android:maxWidth="150dp"
+                    android:layout_row="2"
+                    android:inputType="time|date"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="6"
+                android:background="@drawable/shape"
+                android:columnCount="2"
+                android:rowCount="3"
+                android:layout_span="2"
+                android:layout_weight=".20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Edificio"
+                    android:id="@+id/tvEdificio"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Piano"
+                    android:id="@+id/tvPiano"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Vano"
+                    android:id="@+id/tvVano"
+                    android:layout_column="0"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_row="2" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etEdificio"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:maxWidth="250dp"
+                    android:minWidth="150dp"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etPiano"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:maxWidth="250dp"
+                    android:minWidth="150dp"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etVano"
+                    android:layout_column="1"
+                    android:minWidth="150dp"
+                    android:maxWidth="250dp"
+                    android:layout_row="2"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true" />
+            </GridLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:id="@+id/textView39"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:background="#ff710003"
+                android:layout_span="7"
+                android:layout_weight=".5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/lvOggettiSelection"
+                android:layout_column="0"
+                android:layout_span="7"
+                android:numColumns="2"
+                android:choiceMode="singleChoice"
+                android:background="@drawable/shape"
+                android:layout_weight="1" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:id="@+id/textView37"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:background="#ff710003"
+                android:layout_span="7"
+                android:layout_weight="1" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
